@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: url(../imagens/Header\ wallpaper.png);
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 6vw;
+    background-color: rgba(0, 0, 0, 0.605);
+}
+
+header > p {
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.605);
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: cursive;
+    font-size: 1.5vw;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+section > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+section.puppet {
+    background-image: url(../imagens/Puppet\ and\ Springtrap\ Banner.jpeg);
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+section.puppet > p {
+    background-color: rgba(0, 0, 0, 0.46);
+    color: white;
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.519);
+    padding-right: 860px;
+    padding-top: 150px;
+    padding-bottom: 300px;
+    text-shadow: 5px 5px 5px black;
+}
+
+section#img001 {
+    background-image: url(../imagens/FNAF\ 1\ Animatronics.png);
+    max-width: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    
+}
+
+section#img002 {
+    background-image: url(../imagens/fnaf_movie__bite_of_83_87_scene_by_gavin53zan_dg9byrz-fullview.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+section#img003 {
+    background-image: url(../imagens/Burned\ fnaf3.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
